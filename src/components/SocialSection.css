@@ -1,0 +1,87 @@
+.social-section {
+    background: #ffffff;
+    padding: 30px 60px;
+  }
+  
+  /* Header */
+  .social-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+  }
+  
+  .social-header h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .social-btn {
+    padding: 10px 26px;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #000000;
+    border: #000000 2px solid;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon i {
+    font-size: 8rem;
+    color: #000;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .social-icon span {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .social-icon:hover i {
+    transform: scale(1.1);
+  }
+  
+  .social-icon:hover span {
+    opacity: 1;
+  }
+  
+  /* Optional platform color accents */
+  .instagram i { color: #e1306c; }
+  .twitter i { color: #1da1f2; }
+  .whatsapp i { color: #25d366; }
+  .facebook i { color: #1877f2; }
+
+  .social-icon svg {
+    font-size: 4.5rem;   /* 🔥 BIG icons */
+  }
+
+  .social-icon:hover svg {
+    transform: scale(1.15);
+  }
+  .social-icon svg {
+    transition: transform 0.3s ease;
+  }

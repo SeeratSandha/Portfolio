@@ -1,0 +1,106 @@
+/* SECTION WRAPPER */
+.services-section {
+    width: 100%;
+    background: #ffffff;
+    padding: 80px 0;
+    margin-top: 3px;
+  }
+  
+  .section-divider {
+    height: 2px;             /* slim line */
+    width: 80%;              /* or 100% for full width */
+    background-color: #ccc;  /* light gray, change if you want */
+    margin: 2px -20px;       /* space above and below */
+    border-radius: 1px; 
+        /* optional, smooth edges */
+  }
+
+  .full-width-divider {
+    height: 2px;           /* line thickness */
+    width: 100%;           /* full page width */
+    background-color: #ccc; /* color of the line */
+  }
+
+  
+  /* CENTERED CONTAINER */
+  .services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+  }
+  
+  /* LEFT SIDE */
+  .services-left {
+    flex: 1;
+    display: flex;
+    font-weight: 200;
+    flex-direction: column;
+  }
+  
+  .services-left h2 {
+    font-size: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  .services-left p
+   {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #494947;
+    line-height: 1.6;
+  }
+
+  .services-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+  }
+  
+  .services-gif {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; /* optional */
+    transition: opacity 0.5s ease;
+  }
+  .learn-more-btn {
+    margin-top: 30px;
+    width: fit-content;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #313234;
+    transform: translateY(-2px);
+  }
+
+  .student-quote {
+    margin: 20px 0;
+    padding: 20px 25px;
+    background-color: #f0f4ff;
+    border-left: 5px solid #4f46e5;
+    border-radius: 10px;
+    font-style: italic;
+    color: #333;
+    max-width: 500px;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards; /* triggers on load */
+    animation-delay: 0.5s; /* slight delay for smooth effect */
+  }
+  

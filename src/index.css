@@ -1,0 +1,16 @@
+/* GLOBAL RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  font-family: 'Arial', sans-serif; /* optional */
+  background-color: #ffffff; /* white background for your landing page */
+}

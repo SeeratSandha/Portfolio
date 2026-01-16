@@ -1,0 +1,62 @@
+.ethos-section {
+    width: 100%;
+    min-height: 55vh;
+    background: 
+    linear-gradient(rgba(246, 214, 220, 0.5), rgba(249, 164, 177, 0.5)), /* dim overlay */
+    url('/strawberry.jpeg') center/cover no-repeat; /* background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+    
+  
+  /* Glassmorphism box */
+  .ethos-overlay {
+    max-width: 700px;
+    padding: 50px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: #000;
+    align-items: center;
+  }
+  
+  /* Title */
+  .ethos-overlay h2 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Paragraph */
+  .ethos-overlay p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .ethos-btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ethos-btn:hover {
+    background: #111;
+    transform: translateY(-2px);
+  }

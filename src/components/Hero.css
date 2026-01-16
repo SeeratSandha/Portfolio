@@ -1,0 +1,70 @@
+/* Cover Image */
+.cover-section {
+  width: 100%;
+  height: 40vh;
+  background: url("/pink.jpg") center/cover no-repeat;
+  position: relative;
+  z-index:1;
+}
+
+/* Profile area below cover */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 0 80px;
+  margin-top: -70px;   /* pulls image UP onto the cover */
+  position: relative;
+  z-index: 2;
+}
+
+/* Profile Image */
+/* Circle wrapper */
+
+
+/* Image inside wrapper */
+.profile-pic-container {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;     /* circular container */
+  overflow: hidden;       /* crop anything outside the circle */
+  border: 6px solid white;
+  background: white;
+  position: relative;
+}
+
+.profile-pic {
+  width:100%;
+  height: 100%;
+  object-fit: cover;      /* ensures it fills the container */
+  object-position: center 30%;/* keeps face centered */
+  transform: scale(1.01);  /* zooms image only */
+}
+
+
+/* Text on the right */
+.profile-text h2 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.profile-text h4 {
+  margin: 5px 0;
+  font-weight: 500;
+  color: #666;
+}
+
+.profile-text p {
+  margin: 0;
+  color: #888;
+  font-size: 0.95rem;
+}
+
+/* Global reset */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+

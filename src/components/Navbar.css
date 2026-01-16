@@ -1,0 +1,84 @@
+.navbar {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0.2px; /* reduced from 15px 50px */
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    margin-top:10px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-left: 65px;
+    color: #adabab;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+  }
+  
+  .navbar-links li {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li:hover {
+    color: #010910;
+  }
+  
+  .register-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  background-color: #000000;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+  
+  
+  .register-btn:hover {
+    background-color: #252627;
+    transform: translateY(-2px);
+  }
+
+
+  /* Reset link styles */
+.navbar-links a {
+  text-decoration: none;   /* removes underline */
+  color: #000;             /* black text */
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* Optional hover (clean, no underline) */
+.navbar-links a:hover {
+  opacity: 0.7;
+}
+
+/* Remove list bullets + layout */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+
+  

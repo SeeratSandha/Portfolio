@@ -1,0 +1,62 @@
+.newsletter-section {
+    position: relative;
+    width: 100%;
+    min-height: 400px; /* adjust height */
+    background: 
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* dim overlay */
+      url("/rose.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+  }
+  
+  .newsletter-overlay {
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .newsletter-overlay h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  
+  .newsletter-overlay p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .newsletter-form input {
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: none;
+    min-width: 260px;
+    font-size: 1rem;
+  }
+  
+  .newsletter-form button {
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background: #111;
+    transform: translateY(-2px);
+  }

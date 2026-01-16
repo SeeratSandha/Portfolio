@@ -1,0 +1,30 @@
+.service-card {
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Roboto', sans-serif; /* or any slim font */
+
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .card-header h3 {
+    font-size: 1.3rem;
+    font-weight: 200; 
+    margin: 0;
+  }
+  
+  .toggle-sign {
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    color: #555;
+    max-width: 90%;
+  }
