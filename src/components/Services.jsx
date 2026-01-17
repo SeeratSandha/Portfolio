@@ -56,7 +56,8 @@ export default function Services() {
 {/* STUDENT QUOTE */}
 <div className="student-quote">
   <p>
-    <em>"I really love her way of teaching! She is amazing—it helped me improve my grades and understand concepts so much better."</em>
+   <p>Do you know what is crazy about teaching programming .......?  </p>
+    <em>"Explaining the same thing five different ways, and the one that works is the one you made up by accident."</em>>
   </p>
 </div>
           </div>
